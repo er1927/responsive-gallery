@@ -42,12 +42,23 @@ li {
     list-style-type: none;
     display: inline;
     text-transform: lowercase; 
-    padding: 10px;     
+    padding: 10px;
+    font-family: 'Alike', serif;
+    font-family: 'EB Garamond', serif;     
 }
 
 a {
     text-decoration: none;
     color: antiquewhite;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Alike', serif;
+    font-family: 'EB Garamond', serif;
 }
 
 .gallery {
@@ -76,11 +87,14 @@ footer {
 }
 
 i {
-    color: darkgray;
+    color: rgb(88, 83, 83);
     font-size: 1.5em;
     padding: 0 1em;
 }
 
+i:hover {
+    color:rgb(46, 46, 46);
+}
 
 /* - - - ABOUT PAGE - - -  */
 
