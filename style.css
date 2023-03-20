@@ -1,7 +1,3 @@
-/* * {
-    outline: 1px dotted gray;
-}*/ 
-
 html {
     font-size: 16px;
 }
@@ -18,7 +14,6 @@ body {
     color: #262626;
 }
 
-
 /* - - - MOBILE/MAIN STYLE - - - */
 
 header {
@@ -28,8 +23,6 @@ header {
     display: flex;
     flex-direction: column;
 }
-
-
 
 ul {
     margin-left: 0px;
@@ -98,7 +91,6 @@ i:hover {
 
 /* - - - ABOUT PAGE - - -  */
 
-
 article  {
     display: flex;
     flex-wrap: nowrap;
@@ -117,9 +109,7 @@ article p {
     padding: 20px;
 }
 
-
 /* - - - FAQ PAGE - - -  */
-
 
 #faq {
     color:#0d0d0d;
@@ -129,9 +119,7 @@ article p {
     margin-left:1%;
 }
 
-
 /* - - - SCROLLBAR STYLE - - - */
-
 
 ::-webkit-scrollbar {
     width: .5em;
@@ -152,7 +140,6 @@ article p {
     background: #555; 
 }
 
-
 /* - - - MEDIA QUERIES - - - */
 
 @media (max-width: 767px) {                  
@@ -164,9 +151,7 @@ article p {
     article img {
         display:none;
     }
-    
  }
-
 
  @media (min-width: 1200px) {
 
@@ -198,21 +183,19 @@ article p {
         width:75%;
         height:85vh;
         overflow-y: scroll;
-        overflow-x:hidden;
-        
-        
+        overflow-x:hidden;   
     }
+
     article {
         width:85%;
         display: flex;
         flex-direction: row-reverse;
-        }
+    }
           
     #faq {
         width:85%;
         height:85vh;
         overflow-x: hidden;
         overflow-y: scroll;
-        
     }
  }
