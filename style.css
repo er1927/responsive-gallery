@@ -18,10 +18,15 @@ body {
 
 header {
     text-align: center;
-    background-color: #7f7f7f;
+    background-color: 
+    #83677B;
     text-transform: lowercase;
     display: flex;
     flex-direction: column;
+}
+
+header h1 {
+    color:#501B1D;
 }
 
 ul {
@@ -76,7 +81,8 @@ footer {
     display:flex;
     justify-content: center;
     align-content: flex-end;
-    background-color:#cfcfcf;
+    background-color:
+    #ADADAD;
 }
 
 i {
