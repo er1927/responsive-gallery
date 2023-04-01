@@ -30,6 +30,11 @@ header h1 {
     color:#501B1D;
 }
 
+header div {
+    padding: 0 1em;
+    text-transform: none;
+}
+
 ul {
     margin-left: 0px;
     padding-left: 0px;
@@ -100,9 +105,10 @@ i:hover {
 article  {
     display: flex;
     flex-direction: column;
-    margin:1em;
-    padding:1em;
+}
 
+article p {
+    padding: 1em;
 }
 
 article img {
@@ -127,7 +133,8 @@ article p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left:1em
+    margin-left:1em;
+    padding: 0 2em;
 }
 
 /* - - - SCROLLBAR STYLE - - - */
@@ -165,7 +172,7 @@ article p {
         flex-direction: row-reverse;
     }
 
-     img:hover {
+     .gallery img:hover {
         transform:scale(2);
         border: .5em solid #f2f2f2;
         position: absolute; 
@@ -205,11 +212,12 @@ article p {
         overflow-y: scroll;
         overflow-x:hidden;   
     }
-          
+
     #faq {
         width:85%;
         height:85vh;
         overflow-x: hidden;
         overflow-y: scroll;
+        padding: 0 4em;
     }
  }
